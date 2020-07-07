@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, header, #intro {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.last {
+    background-color: #27415c;
+}
+
+
+/* Home Page */
+header > nav {
+    background-color: black;
+}
+
+
+#intro {
+    background: url("../images/IMG_17390.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn {
+    color: maroon;
+    border: solid 2px maroon;
+    margin: 5px;
+    padding: 6px;
+}
+
+#intro .btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* About Me */
+
+
+#about-me h4{
+    background-color:#1e2124 ;
+}
+
+
+/* Resume  */
+
+#resume {
+    color: black;
+}
+
+#resume h4 {
+    color: white;
+    background-color: #1e2124 ;
+}
+
+#resume .introduction {
+    line-height: 3px;
+}
+
+#resume .education {
+    line-height: 5px;
+}
+
+#resume .certification {
+    line-height: 5px;
+}
+
+
+
+/* Contact*/
+
+#contact h4 {
+    background-color: #1e2124;
+}
+
+#gmail {
+    border: solid 2px black;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+}
+
+#gmail:hover {
+    color: black;
+    background-color: white;
+}
+
+.social-media ul li {
+    font-size: 25px;
+    list-style: none;
+    display: inline; 
+}
+
+.fa {
+    border: solid black 2px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+
+
+@media (max-width: 480px) {
+    #xs-gmail {
+        font-size: 80%;
+    }
+
+    #contact iframe {
+        height: 200%;
+        width: 100%;
+    }
+
+    #xs-resume {
+        line-height: 16px;
+    }
+
+}
